@@ -74,3 +74,5 @@ LimitNOFILE=65536
 
 [Install]
 WantedBy=multi-user.target" >> /etc/systemd/system/rippled.service
+
+sudo systemctl enable rippled.service
